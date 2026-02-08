@@ -1,0 +1,14 @@
+> La versión 'HouseX' del sistema de Gamemode es la misma que la de Filterscript 'HouseX', la única diferencia está en los nombres de las funciones principales:
+
+public OnGameModeInit() y public OnGameModeExit() en el GM, mientras que en el FS se usan public OnFilterScriptInit() y public OnFilterScriptExit().
+
+
+
+Aclaración:
+
+
+Para garantizar que todo funcione correctamente y no existan inconvenientes como IDs duplicados
+
+Textdraws que no aparecen o diálogos reemplazados o demás errores usaremos directamente el Gamemode.
+
+En caso de que use un Gamemode RP/FR/TDM/etc lo más recomendable es migrar todo el sistema del FS directamente a su GameMode.
